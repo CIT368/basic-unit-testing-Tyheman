@@ -1,8 +1,9 @@
-import org.junit.jupiter.api.Test;
+//Author: Tyler Mankey
+//Purpose: Develop Test Cases for Telephone Class
 
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 
@@ -22,10 +23,7 @@ public class TelephoneTest {
     }
 
     @Test
-    public void containsNoExtraCharacters(){
+    public void containsNoExtraCharacters() {
         assertEquals(13, number.length());
     }
-
-
-
 }
